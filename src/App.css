@@ -1,0 +1,58 @@
+/* Global styles */
+body {
+  font-family: sans-serif;
+}
+textarea,
+input {
+  @apply outline-none;
+}
+
+/* Product card styles */
+.product-card {
+  @apply flex flex-col rounded-lg shadow-md bg-white p-4 mb-8;
+}
+
+.product-card img {
+  @apply w-full object-cover rounded-lg h-48;
+}
+
+.product-card h3 {
+  @apply text-xl font-bold my-2;
+}
+
+.product-card p {
+  @apply text-gray-700 mb-4;
+}
+
+.product-card button {
+  @apply inline-block px-4 py-2 rounded-lg bg-blue-500 text-white font-bold;
+}
+/* Update existing navbar styles */
+header {
+  @apply flex justify-between items-center bg-gray-700 px-4 py-2;
+}
+.nav-link {
+  @apply text-slate-600;
+}
+/* Add styles for active link */
+.nav-link.active {
+  @apply bg-gray-600;
+}
+
+/* Update styles for navigation links */
+nav a {
+  @apply px-4 py-2 rounded-lg text-white;
+}
+
+.navbar {
+  @apply text-teal-500 font-semibold hover:bg-slate-100;
+}
+.upload {
+  @apply flex items-center justify-between border p-2 w-full cursor-pointer;
+}
+.label {
+  @apply font-semibold;
+}
+.title{
+  @apply text-sm font-bold
+}
